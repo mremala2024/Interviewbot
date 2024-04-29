@@ -2,7 +2,7 @@ import streamlit as st
 import openai
 
 # Set your OpenAI API key here
-openai.api_key = 'your-api-key'
+openai.api_key = 'MEG_OPENAPI_KEY'
 
 def get_response(prompt):
     response = openai.Completion.create(
